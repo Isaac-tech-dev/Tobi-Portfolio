@@ -213,15 +213,15 @@ img{
 .home__img{
     padding-top: 1.3rem;
     padding-left: .8rem;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     background-color: var(--first-color);
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: var(--mb-2);
 }
 .home__img img{
-    width: 200px;
+    width: 350px;
 }
 
 .home__title{
@@ -352,7 +352,7 @@ img{
     background-color: var(--first-color);
 }
 .skills_ui{
-    width: 85%;
+    width: 80%;
 }
 .skills_ux{
     width: 65%;
@@ -362,6 +362,12 @@ img{
 }
 .skills_xd{
     width: 75%;
+}
+.skills_ps{
+    width: 75%;
+}
+.skills_c{
+    width: 85%;
 }
 .skills_html{
     width: 85%;
@@ -475,7 +481,7 @@ img{
     color: var(--first-color-lighthen);
 }
 .services__content:hover .services__description{
-    color: var(--first-color-lighthen);
+    color: var(--first-color-light);
 }
 /*===== PROJECT CSS =====*/
 .project{
@@ -507,6 +513,7 @@ img{
 }
 
 .works__img{
+    height: 20vh;
     position: relative;
     overflow: hidden;
     border-radius: .7rem;
@@ -539,6 +546,9 @@ img{
 }
 .works__img:hover .works__data{
     bottom: 0;
+}
+.works__button{
+    margin-top: 3rem;
 }
 
 /*===== CONTACT CSS =====*/
@@ -595,6 +605,7 @@ img{
     margin-bottom: var(--mb-2);
 }
 .footer__social{
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 .footer__link{
@@ -735,4 +746,13 @@ img{
         grid-template-columns: repeat(3,1fr);
     }
     
+}
+
+#preloader{
+    background: #000 url(/resources/preloader.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
