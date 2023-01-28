@@ -15,7 +15,7 @@ navClose.addEventListener('click', ()=>{
 
 
 /* ===== REMOVE MENU ===== */
-const navLink = document.querySelector('nav__link')
+const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
     navMenu.classList.remove('show')
