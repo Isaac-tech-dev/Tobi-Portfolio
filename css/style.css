@@ -12,12 +12,12 @@
     --font-bold:700;
 
     /*===== COLORS =====*/
-    --first-color:#000000;
-    --first-color-dark:#3772FF;
-    --first-color-darken:#3943B7;
-    --text-color:#DF2935;
-    --first-color-light:#FFFFFF;
-    --first-color-lighthen:#FFF9FB;
+    --first-color:#cc4b2c;
+    --first-color-dark:#662616;
+    --first-color-darken:#290f09;
+    --text-color:#54423d;
+    --first-color-light:#eae7e6;
+    --first-color-lighthen:#fffafa;
 
     /*===== FONT AND TYPOGRAPHY =====*/
     --body-font: 'Poppins', sans-serif;
@@ -199,6 +199,7 @@ img{
 }
 
 /*===== HOME CSS =====*/
+
 .home__container{
     height: calc(100vh - var(--header-height));
     align-items: center;
@@ -385,7 +386,7 @@ img{
     width: 75%;
 }
 .skills_php{
-    width: 65%;
+    width: 40%;
 }
 .skills_firebase{
     width: 35%;
@@ -549,6 +550,15 @@ img{
 }
 .works__button{
     margin-top: 3rem;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
+.works__button::before{
+    color: var(--first-color-light);
 }
 
 /*===== CONTACT CSS =====*/
@@ -748,11 +758,11 @@ img{
     
 }
 
-#preloader{
+/* #preloader{
     background: #000 url(/resources/preloader.gif) no-repeat center center;
     background-size: 50%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
-}
+} */
