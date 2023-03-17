@@ -246,10 +246,12 @@ img{
     border-radius: 50%;
     padding: .40rem;
     margin: 0 var(--mb-1);
-    transition: .3s;
+    transition: .5s ease-in-out;
 }
 .home__social-link:hover{
-    background-color: var(--first-color-dark);
+    border: 2px solid var(--first-color);
+    background: transparent;
+    color: var(--first-color-dark);
 }
 .home__button{
     width: 100%;
