@@ -12,8 +12,8 @@
     --font-bold:700;
 
     /*===== COLORS =====*/
-    --first-color:#cc4b2c;
-    --first-color-dark:#662616;
+    --first-color:#222;
+    --first-color-dark:#5e5d5d;
     --first-color-darken:#290f09;
     --text-color:#54423d;
     --first-color-light:#eae7e6;
@@ -274,6 +274,8 @@ img{
 }
 .button__light:hover{
     color: var(--first-color-lighthen);
+    background: transparent;
+    border: 2px solid #fff;
 }
 .button__dark{
     background-color: var(--first-color-dark);
