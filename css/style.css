@@ -223,6 +223,7 @@ img{
 }
 .home__img img{
     width: 350px;
+    background-position: center;
 }
 
 .home__title{
@@ -357,35 +358,50 @@ img{
     background-color: var(--first-color);
 }
 .skills_ui{
-    width: 80%;
+    width: 70%;
 }
 .skills_ux{
-    width: 65%;
+    width: 80%;
 }
 .skills_figma{
-    width: 85%;
+    width: 90%;
 }
 .skills_xd{
-    width: 75%;
-}
-.skills_ps{
-    width: 75%;
-}
-.skills_c{
-    width: 85%;
-}
-.skills_html{
-    width: 85%;
-}
-.skills_js{
     width: 65%;
 }
+.skills_ps{
+    width: 80%;
+}
+.skills_c{
+    width: 75%;
+}
+
+
+.skills_html{
+    width: 70%;
+}
+.skills_js{
+    width: 80%;
+}
 .skills_xml{
-    width: 85%;
+    width: 75%;
 }
 .skills_react{
-    width: 45%;
+    width: 65%;
 }
+.skills_gd{
+    width: 90%;
+}
+.skills_gs{
+    width: 85%;
+}
+.skills_mc{
+    width: 75%;
+}
+.skills_substack{
+    width: 70%;
+}
+
 .skills_java{
     width: 75%;
 }
